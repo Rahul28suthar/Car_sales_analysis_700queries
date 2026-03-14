@@ -30,6 +30,22 @@ main feilds:
 | Phone         | Customer contact number                |
 | Dealer_Region | Region where the car was sold          |
 
+table2(company_info) used for join feilds:
+| Column        | Description                            |
+| ------------- | -------------------------------------- |
+| Company       | Car manufacturer                       |
+| Country       | Car manufacturer Country               |
+| Founded_year  | What year the company was founded      |
+
+table3 (region_info) used for join feilds:
+| Column        | Description                            |
+| ------------- | -------------------------------------- |
+| Dealer_Region | Region where the car was sold          |
+| Country       | Car manufacturer Country               |
+| Market_type   | Type of Market cars are sold           |
+
+
+
 Repository Structure
 Car_sales_analysis_700queries
 │
